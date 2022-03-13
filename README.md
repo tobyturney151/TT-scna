@@ -2,10 +2,10 @@
 
 ## Usage:
 
-## import ttscna
-## ttscna.ttscna(file_name, on_start, off_start, sweep_len = 5.0, sample_rate = 20000, skip_rows = 9, sep = "\t", fmin = 20.0, fmax = 10000.0)
+    import ttscna
+    ttscna.ttscna(file_name, on_start, off_start, sweep_len = 5.0, sample_rate = 20000, skip_rows = 9, sep = "\t", fmin = 20.0, fmax = 10000.0)
 
-
+## Doc-String
 Takes as input a text file containing electrophysiological data in two conditions.
 Computes the difference in single-channel noise between the two conditions.
 
