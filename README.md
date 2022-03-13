@@ -1,9 +1,10 @@
 # TT-scna
-Usage:
 
-  import ttscna
-  
-  ttscna.ttscna(file_name, on_start, off_start, sweep_len = 5.0, sample_rate = 20000, skip_rows = 9, sep = "\t", fmin = 20.0, fmax = 10000.0)
+## Usage:
+
+## import ttscna
+## ttscna.ttscna(file_name, on_start, off_start, sweep_len = 5.0, sample_rate = 20000, skip_rows = 9, sep = "\t", fmin = 20.0, fmax = 10000.0)
+
 
 Takes as input a text file containing electrophysiological data in two conditions.
 Computes the difference in single-channel noise between the two conditions.
@@ -44,13 +45,19 @@ Output
 ----------
 Figure: .png
     A 4-panel plot containing:
-    100 microsecond traces of the On and Off conditions.
         
+    100 microsecond traces of the On and Off conditions.
+    
     Overlaid power spectra from both conditions.
         
     The power spectra of the on condition minus the off condition, 
     overlaid with a Lorentzian model.
         
 Table: .csv
-    A .csv containing the unitary conductance and mean dwell time
-    predicted from the data.
+    A .csv containing:
+
+    Unitary conductance, in fS.
+    
+    Mean Dwell Time, in ms.
+        
+    Mean Bulk Current, in pA.
