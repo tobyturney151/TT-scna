@@ -61,6 +61,7 @@ Figure: .png
     The power spectra of the on condition minus the off condition, 
     overlaid with a Lorentzian model.
         
+![Example Results](https://github.com/tobyturney151/TT-scna/blob/main/example.png?raw=true)
 
 Table: .csv
     A .csv containing:
