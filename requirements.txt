@@ -1,0 +1,6 @@
+numpy
+pandas
+scipy.signal
+scipy.optimize
+matplotlib.pyplot
+argparse
