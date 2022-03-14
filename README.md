@@ -5,8 +5,8 @@ This package will perform single-channel noise analysis on an electrophysiologic
 
 Originally designed for use on whole-cell currents from HEK cells expressing channel rhodopsins, and being exposed to 'light' and 'dark' conditions. Please see the literature below for a (1) paper which inspired this work, and (2) an excellent review on single-channel noise analysis.
 
-1. ![Govorunova, Elena G., et al. "Characterization of a highly efficient blue-shifted channelrhodopsin from the marine alga Platymonas subcordiformis." Journal of Biological Chemistry 288.41 (2013): 29911-29922.](https://www.jbc.org/article/S0021-9258(20)48810-6/fulltext)
-2. ![Gray, PETER TA. "Analysis of whole cell currents to estimate the kinetics and amplitude of underlying unitary events: relaxation and ‘noise’analysis." Microelectrodes Techniques, The Plymouth Workshop Handbook. Second edition. D. Ogden, editor. Company of Biologists, Cambridge, MA. 1994.](https://personal.utdallas.edu/~tres/microelectrode/microelectrodes_ch08.pdf)
+1. Govorunova, Elena G., et al. "Characterization of a highly efficient blue-shifted channelrhodopsin from the marine alga Platymonas subcordiformis." Journal of Biological Chemistry 288.41 (2013): 29911-29922.
+2. Gray, PETER TA. "Analysis of whole cell currents to estimate the kinetics and amplitude of underlying unitary events: relaxation and ‘noise’analysis." Microelectrodes Techniques, The Plymouth Workshop Handbook. Second edition. D. Ogden, editor. Company of Biologists, Cambridge, MA. 1994.
 
 ## Usage:
 
