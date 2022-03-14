@@ -228,9 +228,9 @@ def plot_my_data(on_time, subtracted_on, off_time, subtracted_off, f_on, f_off, 
     ps.spines["bottom"].set_linewidth(5)
     ps.spines["left"].set_color("k")
     ps.spines["left"].set_linewidth(5)
-    ps.loglog(f_on,spec_on, c = '#ff33fc', linewidth = 5)
-    ps.loglog(f_off,spec_off, c = '#33caff', linewidth = 5)
-    # ps.legend([1,2],['Laser On','Laser Off'])
+    ps.loglog(f_on,spec_on, c = '#ff33fc', linewidth = 5, label = 'On')
+    ps.loglog(f_off,spec_off, c = '#33caff', linewidth = 5, label = 'Off')
+    ps.legend()
     ps.tick_params(direction='out', length=15, width=5, colors='k')
     ps.set(ylabel = "PSD, (pA$^2$/Hz)", 
            xlabel = "Frequency (Hz)",
@@ -245,9 +245,9 @@ def plot_my_data(on_time, subtracted_on, off_time, subtracted_off, f_on, f_off, 
     psd.spines["bottom"].set_linewidth(5)
     psd.spines["left"].set_color("k")
     psd.spines["left"].set_linewidth(5)
-    psd.loglog(f_on, delta_spec, c = 'k', linewidth = 5)
-    psd.loglog(f_on, model_PSD, c = 'r', linewidth = 7)
-    # psd.legend([1,2],['Experiment','Fitted Model'])
+    psd.loglog(f_on, delta_spec, c = 'k', linewidth = 5, label = 'Experiment')
+    psd.loglog(f_on, model_PSD, c = 'r', linewidth = 7, label = 'Fitted Model')
+    psd.legend()
     psd.tick_params(direction='out', length=15, width=5, colors='k')
     psd.set(ylabel = "PSD, (pA$^2$/Hz)", 
            xlabel = "Frequency (Hz)",
