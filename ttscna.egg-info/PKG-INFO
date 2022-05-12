@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ttscna
+Version: 0.0.2
+Summary: TT-scna: Perform Single-Channel Noise Analysis of Electrophysiological Data.
+Home-page: https://github.com/tobyturney151/TT-scna
+Author: Toby Turney
+Author-email: tobyturney151@gmail.com
+License: MIT License
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=2.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+TT-scna: Perform Single-Channel Noise Analysis of Electrophysiological Data.
+

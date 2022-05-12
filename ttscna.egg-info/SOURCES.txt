@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+ttscna/__init__.py
+ttscna/ttscna.py
+ttscna.egg-info/PKG-INFO
+ttscna.egg-info/SOURCES.txt
+ttscna.egg-info/dependency_links.txt
+ttscna.egg-info/requires.txt
+ttscna.egg-info/top_level.txt
+ttscna/tests/test_ttscna.py

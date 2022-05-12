@@ -1,6 +1,3 @@
-numpy
-pandas
-scipy.signal
-scipy.optimize
-matplotlib.pyplot
+pytest
+os
 argparse
